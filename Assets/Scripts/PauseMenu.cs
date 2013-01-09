@@ -6,6 +6,8 @@ public class PauseMenu : MonoBehaviour {
 
     public Main main;
 
+    public PlayerHandler Player;
+
     public GUISkin MAIN_GUISKIN;
 
     public float ButtonBoxOffset = 0.0f;
@@ -282,13 +284,20 @@ public class PauseMenu : MonoBehaviour {
             {
                 if (Main.GodMode)
                 {
-                    GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height - 48, 400, 24), "GOD MODE ACTIVE");
+                    GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height - 24, 400, 24), "GOD MODE ACTIVE");
                 }
                 else
                 {
-                    GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height - 48, 400, 24), "Press G to enable God Mode.");
+                    GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height - 24, 400, 24), "Press G to enable God Mode.");
                 }
             }
+
+            if (Player.StatusDisplay != "")
+            {
+                GUI.Box(new Rect(Screen.width / 2 - 250, Screen.height - 72, 500, 24), Player.StatusDisplay);
+            }
+
+            GUI.Box(new Rect(Screen.width / 2 - 300, 24, 600, 24), "[F1]: Regenerate Terrain / [F2]: Regenerate Terrain With Random Seed");
 		}
     }
 

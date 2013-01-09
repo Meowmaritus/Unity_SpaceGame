@@ -1,0 +1,15 @@
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Assembly-CSharp-Editor.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Assembly-UnityScript.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\UnityEditor.Graphs.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\obj\Debug\Assembly-CSharp-Editor-vs.csprojResolveAssemblyReference.cache
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\obj\Debug\Assembly-CSharp-Editor.dll
+C:\Users\Tyler\Documents\GitHub\Unity_SpaceGame\obj\Debug\Assembly-CSharp-Editor.pdb

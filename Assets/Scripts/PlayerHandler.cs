@@ -8,6 +8,32 @@ public class PlayerHandler : MonoBehaviour {
 	public float SmoothHealth = 0.0f;
 	public float HealthDelta = 0;
 	private float oldHealth = 0;
+
+    private string _statusDisplay = "";
+
+    public string StatusDisplay
+    {
+        get 
+        {
+            if (Time.time < StatusTime)
+            {
+                return (_statusDisplay);
+            }
+            else
+            {
+                return ("");
+            }
+            
+        }
+        set
+        {               
+            _statusDisplay = value;
+            StatusTime = Time.time + StatusHideDelay;
+        }
+    }
+
+    public float StatusHideDelay = 0.5f;
+    private float StatusTime = 0;
 	
 	public float Stamina = 1.0f;
 	public float StaminaLerp = 1.0f;
@@ -337,6 +363,12 @@ public class PlayerHandler : MonoBehaviour {
 		oldJetpackFuel = JetpackFuel;
 		oldFOVMod = currentFOVMod;
 	}
+
+    public void MoveTo(Transform t)
+    {
+        transform.position = t.position;
+        transform.rotation = t.rotation;
+    }
 
     void DoUpdate_Paused()
     {

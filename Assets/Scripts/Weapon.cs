@@ -174,31 +174,31 @@ public class Weapon : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{	
-		GameGUI.DisplayValue["Switch"] = CurrentGunState;
-		GameGUI.DisplayValue["Forced Safety"] = SafetyEngaged;
-		
-		//GameGUI.DebugValue["CurrentWeapon.MuzzleFlareVisible"] = MuzzleFlareVisible;
-		GameGUI.DebugValue["CurrentWeapon.MuzzleFlashObject.renderer.enabled"] = MuzzleFlashObject.renderer.enabled;
-		GameGUI.DebugValue["CurrentWeapon.CurrentGunState"] = CurrentGunState;
-		GameGUI.DebugValue["CurrentWeapon.CurrentBurst"] = CurrentBurst;
+		//  GameGUI.DisplayValue["Switch"] = CurrentGunState;
+		//  GameGUI.DisplayValue["Forced Safety"] = SafetyEngaged;
+		//  
+		//  //GameGUI.DebugValue["CurrentWeapon.MuzzleFlareVisible"] = MuzzleFlareVisible;
+		//  GameGUI.DebugValue["CurrentWeapon.MuzzleFlashObject.renderer.enabled"] = MuzzleFlashObject.renderer.enabled;
+		//  GameGUI.DebugValue["CurrentWeapon.CurrentGunState"] = CurrentGunState;
+		//  GameGUI.DebugValue["CurrentWeapon.CurrentBurst"] = CurrentBurst;
 		
 		GunLight.SetActive(MuzzleFlareVisible);
 
-        GameGUI.DisplayValue["# Total Rounds"] = AmmoTotal;
-        GameGUI.DisplayValue["# Rounds In Clip"] = AmmoInClip;
-        GameGUI.DisplayValue["# Rounds In Chamber"] = AmmoInBarrel;
-		
-		GameGUI.DebugValue["AmmoTotal"] = AmmoTotal;
-		GameGUI.DebugValue["AmmoInClip"] = AmmoInClip;
-		GameGUI.DebugValue["AmmoAmmoInBarrel"] = AmmoInBarrel;
-		GameGUI.DebugValue["MaxAmmoPerBarrel"] = MaxAmmoPerBarrel;
-		GameGUI.DebugValue["MaxAmmoPerClip"] = MaxAmmoPerClip;
-		GameGUI.DebugValue["MaxAmmoTotal"] = MaxAmmoTotal;
-		GameGUI.DebugValue["ReloadState"] = CurrentReload;
-		GameGUI.DebugValue["MovementState"] = CurrentMovement;
-		GameGUI.DebugValue["ShootState"] = CurrentShoot;
-		GameGUI.DebugValue["NeedsToReload"] = NeedsToReload;
-		GameGUI.DebugValue["CanReload"] = CanReload;
+        //  GameGUI.DisplayValue["# Total Rounds"] = AmmoTotal;
+        //  GameGUI.DisplayValue["# Rounds In Clip"] = AmmoInClip;
+        //  GameGUI.DisplayValue["# Rounds In Chamber"] = AmmoInBarrel;
+		//  
+		//  GameGUI.DebugValue["AmmoTotal"] = AmmoTotal;
+		//  GameGUI.DebugValue["AmmoInClip"] = AmmoInClip;
+		//  GameGUI.DebugValue["AmmoAmmoInBarrel"] = AmmoInBarrel;
+		//  GameGUI.DebugValue["MaxAmmoPerBarrel"] = MaxAmmoPerBarrel;
+		//  GameGUI.DebugValue["MaxAmmoPerClip"] = MaxAmmoPerClip;
+		//  GameGUI.DebugValue["MaxAmmoTotal"] = MaxAmmoTotal;
+		//  GameGUI.DebugValue["ReloadState"] = CurrentReload;
+		//  GameGUI.DebugValue["MovementState"] = CurrentMovement;
+		//  GameGUI.DebugValue["ShootState"] = CurrentShoot;
+		//  GameGUI.DebugValue["NeedsToReload"] = NeedsToReload;
+		//  GameGUI.DebugValue["CanReload"] = CanReload;
 		
 		if (CurrentReload == ReloadState.None)
 		{						
